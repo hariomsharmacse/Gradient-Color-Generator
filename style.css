@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(to right, #004773, #54d542);
+    
+}
+
+section{
+    text-align: center;
+    margin-top: 30vh;
+}
+
+#myButton{
+    background-color: rgb(14, 14, 66);
+    color: white;
+    border-radius: 30px;
+    padding: 12px;
+    font-size: 15px;
+    margin: 15px;
+    border-style: none;
+    width: 9rem;
+}
+
+#myButton2{
+    background-color: rgb(133, 166, 34);
+    color: white;
+    border-radius: 30px;
+    padding: 12px;
+    font-size: 15px;
+    margin: 15px;
+    border-style: none;
+    width: 9rem;
+}
+
+h2{
+    font-weight: 600;
+    margin-top: 14px;
+    color: rgb(224, 223, 223);
+    font-size: medium;
+}
+
+.copyCode{
+    margin-top: 30px;
+    background-color: rgba(240, 255, 255, 0.134);
+    padding: 10px;
+    color: rgb(224, 223, 223);
+    width: 300px;
+    position: absolute;
+    align-items: center;
+    margin-left: 140px;
+    border-radius: 10px;
+    border-left: 2px solid white;
+    margin-top: 4px;
+}
+
+button:hover{
+    box-shadow: 4px 4px 10px rgb(0, 0, 0);
+}
+
+.copyCode:hover{
+        box-shadow: 4px 4px 10px rgb(0, 0, 0);
+}
