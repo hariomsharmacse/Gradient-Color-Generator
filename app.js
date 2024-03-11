@@ -28,7 +28,7 @@ const handleButton2 = () => {
     rgb2 = hexValues();
     btn2.innerText = rgb2;
     document.body.style.backgroundImage = `linear-gradient(to right, ${rgb1}, ${rgb2})`;
-    copyDiv.innerHTML = `background-image: linear-gradient(to right, ${rgb1}, ${rgb2}`;
+    copyDiv.innerHTML = `background-image: linear-gradient(to right, ${rgb1}, ${rgb2});`;
 };
 
 
